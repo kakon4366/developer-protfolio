@@ -13,13 +13,14 @@ h1 {
   display: flex;
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+  margin-bottom: 120px;
 }
 .half-width {
   width: 50%;
   padding-left: 7%;
 }
 .half-width img {
-  width: 80%;
+  width: 90%;
 }
 .link-btn {
   text-decoration: none;
@@ -29,4 +30,15 @@ h1 {
   color: #fff;
   margin-top: 12px;
   display: inline-block;
+}
+
+.dream-area {
+  display: flex;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 120px;
+}
+.dream-area .half-width p {
+  padding-right: 18%;
 }
