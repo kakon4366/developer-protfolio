@@ -10,7 +10,6 @@ h1 {
   color: orange;
 }
 .top-area {
-  display: flex;
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
   margin-bottom: 120px;
@@ -33,7 +32,6 @@ h1 {
 }
 
 .dream-area {
-  display: flex;
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -41,4 +39,36 @@ h1 {
 }
 .dream-area .half-width p {
   padding-right: 18%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.exprience-area {
+  margin-bottom: 120px;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-y: 210px;
+}
+
+.exprience-items {
+  padding: 28px;
+  width: 40%;
+  margin: 0 5%;
+  box-shadow: 0px 4px 42px #444;
+  border-radius: 3px;
+  padding-left: 72px;
+  position: relative;
+  overflow: hidden;
+}
+.exprience-items::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background: red;
+  top: 0;
+  left: 0;
 }
