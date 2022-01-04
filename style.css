@@ -63,12 +63,17 @@ h1 {
   position: relative;
   overflow: hidden;
 }
-.exprience-items::before {
-  content: "";
-  position: absolute;
-  width: 5px;
-  height: 100%;
-  background: red;
-  top: 0;
-  left: 0;
+#baby-left-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+#full-left-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
